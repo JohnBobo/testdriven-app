@@ -1,5 +1,6 @@
 # services/users/project/__init__.py
-
+import sys
+print(app.config, file=sys.stderr)
 import os
 from flask import Flask, jsonify
 from flask_restful import Resource, Api
